@@ -1,3 +1,10 @@
+"""API module for the Day 2 exercise.
+
+Contains the API logic used by main.py.
+"""
+
+
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
